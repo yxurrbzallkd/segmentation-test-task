@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser.add_argument("name", type=str, help="model name")
     parser.add_argument("--iterations", type=int, default=1)
     parser.add_argument("--checkpoint", type=int, default=360, help="interval between checkpoints (seconds)")
-    parser.add_argument("--json", type=str, default="./jsons/train_data_ships.json")
+    parser.add_argument("--data", type=str, default="./jsons/train_data_ships.json")
     parser.add_argument("--batch", type=int, default=10)
     args = parser.parse_args()
 
