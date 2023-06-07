@@ -12,6 +12,8 @@
 	- test.py
 	- `QuickEvaluation.ipynb` - evaluation of different models
 
+in `module.dataset` there  are hardcoded paths to the dataset - change them for your case
+
 ## Solution
 
 ### Unet
